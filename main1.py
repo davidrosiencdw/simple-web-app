@@ -10,4 +10,4 @@ def hello_world():
 
 # Start the web server
 if __name__ == '__main__':
-    app.run(host='https://descriptionshortener.azurewebsites.net/', port=8000)
+    app.run(host='localhost', port=5000)
